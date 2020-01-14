@@ -3,4 +3,15 @@
    <target name = "info">
       <echo>Hello World - Welcome to Apache Ant!</echo>
    </target>
+   <target name = "shell">
+      <echo>Hello World - Welcome to Apache Ant!</echo>
+   </target>
+   <target name="runscript.unix">
+   <echo>This is an Unix machine.</echo>
+       <exec dir="." executable="/bin/sh echo 'jitu'">
+         
+    </exec>
+
+</target>
+
 </project>
